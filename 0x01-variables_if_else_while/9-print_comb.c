@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- *main - main block
+ * main - main block
  * Description: Print all possible combinations fo single-digit numbers.
  * Numbers must be separated by commas and a space.
  * You can only use `putchar` to print to console
@@ -25,4 +25,4 @@ int main(void)
 	putchar('\n');
 
 	return (0);
-} 
+}
