@@ -1,6 +1,7 @@
 #include "putchar.h"
 /**
  * main - print "_putchar" followed by a new line
+ * Description: You are not allowed to include standard librairies.
  * Return: 0
  */
 int main(void)
