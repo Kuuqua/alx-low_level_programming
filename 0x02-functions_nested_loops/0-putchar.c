@@ -5,15 +5,14 @@
  */
 int main(void)
 {
-	char putchar[] = "_putchar";
-	int i = 0;
+	int str[] = {72, 111, 108, 98, 101, 114, 116, 111, 110};
+	int count, sz;
 
-	while (putchar[i] != '\0')
+	sz = sizeof(str) / sizeof(int);
+	for (count = 0; count < sz; count++)
 	{
-		_putchar(putchar[i]);
-		i++;
+		_putchar(str[count]);
 	}
 	_putchar('\n');
-
 	return (0);
 }
