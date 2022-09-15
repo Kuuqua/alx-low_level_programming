@@ -2,5 +2,5 @@
 
 /**
  * main - putchar exists
- * Return: Always .0
+ * Return: Always 0.
  */
