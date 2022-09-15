@@ -1,18 +1,17 @@
 #include "main.h"
 
 /**
- * print_numbers - print the numbers from 0 to 9
- * Description: You can only use _putchar twice
+ * print_numbers - function that checks for uppercase character.
+ * Return: 0
  */
 void print_numbers(void)
 {
-	int i;
+	char c = '0';
 
-	i = 0;
-	while (i < 10)
+	while (c <= '9')
 	{
-		_putchar(i + '0');
-		i++;
+		_putchar(c);
+		c++;
 	}
-	_putchar('\n');
+_putchar('\n');
 }
